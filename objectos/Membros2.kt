@@ -35,14 +35,13 @@ class Calculadora {
 }
 
 fun main() {
-    val calcudora = Calculadora()
+    val calculadora = Calculadora()
 
-    calcudora.somar(1, 2, 3).multiplicar(3).print()
-    calcudora.somar(7, 10).print().limpar()
-    println(calcudora.obterResultado())
-    /*calcudora.somar(3, 5, 6, 8)
-    calcudora.multiplicar(4)
-    //calcudora.mostrarValoresArrays(5, 10, 15, 20)
-
+    calculadora.somar(1, 2, 3).multiplicar(3).print()
+    calculadora.somar(7, 10).print().limpar()
+    println(calculadora.obterResultado())
+    /*calculadora.somar(3, 5, 6, 8)
+    calculadora.multiplicar(4)
+    //calculadora.mostrarValoresArrays(5, 10, 15, 20)
      */
 }
