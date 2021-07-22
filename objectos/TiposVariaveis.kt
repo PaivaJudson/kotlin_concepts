@@ -10,7 +10,7 @@ fun topLevel(){
 class Coisa {
     var fora: String = "olá"
     companion object {
-        var variavelDeInstancia: String = "Boa noite"
+        private var variavelDeInstancia: String = "Boa noite"
         @JvmStatic val constanteDeClasse = "Ciclano"
 
         fun fazer(){
