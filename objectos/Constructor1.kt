@@ -7,6 +7,10 @@ class Filme {
     val genero: String
 
 
+    init {
+
+    }
+
     constructor(nome: String, anoLancamento: Int, genero: String){
         this.nome = nome
         this.anoLancamento = anoLancamento
